@@ -25,4 +25,12 @@ export default defineConfig([
   ...pluginVue.configs['flat/essential'],
   ...pluginOxlint.configs['flat/recommended'],
   skipFormatting,
+
+  // ✅ Override untuk mematikan rule multi-word
+  {
+    files: ['**/*.vue'],
+    rules: {
+      'vue/multi-word-component-names': 'off',
+    },
+  },
 ])
