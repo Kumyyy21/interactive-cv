@@ -2,27 +2,27 @@
 const educationHistory = [
   {
     id: 1,
-    period: '2022 - Sekarang',
-    institution: 'Universitas Gadjah Mada',
-    major: 'S1 - Teknik Informatika',
+    period: '2023 - Sekarang',
+    institution: 'Universitas Amikom Yogyakarta',
+    major: 'S1 - Informatika',
   },
   {
     id: 2,
-    period: '2019 - 2022',
-    institution: 'SMA Negeri 1 Teladan Yogyakarta',
+    period: '2020 - 2023',
+    institution: 'SMK 1 Muhammadiyah Yogyakarta',
     major: 'MIPA',
   }
 ];
 
 const skills = [
-  { name: 'Vue.js', level: 'Mahir' },
-  { name: 'JavaScript', level: 'Mahir' },
-  { name: 'Tailwind CSS', level: 'Mahir' },
-  { name: 'Node.js', level: 'Menengah' },
-  { name: 'Express.js', level: 'Menengah' },
-  { name: 'PostgreSQL', level: 'Menengah' },
-  { name: 'Git & GitHub', level: 'Mahir' },
-  { name: 'HTML5 & CSS3', level: 'Mahir' },
+  { name: 'Vue.js', level: 'pemula' },
+  { name: 'JavaScript', level: 'pemula' },
+  { name: 'Tailwind CSS', level: 'pemula' },
+  { name: 'Node.js', level: 'pemula' },
+  { name: 'Express.js', level: 'pemula' },
+  { name: 'PostgreSQL', level: 'pemula' },
+  { name: 'Git & GitHub', level: 'pemula' },
+  { name: 'HTML5 & CSS3', level: 'pemula' },
 ];
 
 const projects = [
@@ -33,13 +33,20 @@ const projects = [
     tech: ['Vue.js', 'Express.js', 'PostgreSQL'],
     link: '#',
   },
-  {
-    title: 'Aplikasi Manajemen Tugas',
-    image: 'https://via.placeholder.com/500x300?text=Proyek+2',
-    description: 'Aplikasi untuk melacak progres tugas harian.',
-    tech: ['React', 'Firebase'],
-    link: '#',
-  }
+{
+    "title": "Portofolio Interaktif",
+    "description": "Desain dan implementasi situs web portofolio pribadi yang interaktif dan responsif.",
+    "tech": ["Vue.js", "Tailwind CSS", "JavaScript"],
+    "link": "https://github.com/kumyyy21/interactive-cv"
+  },
+
+ {
+  title: "Netacad Cisco Jaringan komputer I",
+  description: "Kursus dasar Cisco yang mengenalkan konsep jaringan komputer dan konfigurasi sederhana menggunakan Cisco Packet Tracer.",
+  image: "@/assets/ccna-introduction-to-networks (1).png", // ATAU .png, tergantung ekstensinya
+  tech: ["Cisco Packet Tracer"],
+  link: "https://www.credly.com/badges/01a07f95-cc68-451d-9ca8-649344b8034f/public_url"
+}
 ];
 
 module.exports = { educationHistory, skills, projects };

@@ -13,7 +13,7 @@
       </a>
     </div>
     <div class="md:w-1/2 flex justify-center animate-slide-in-right">
-      <img src="https://via.placeholder.com/400" alt="Foto Profil" class="w-80 h-80 rounded-full object-cover shadow-lg">
+      <img src="@/assets/KAL05830.JPG" alt="Foto Profil" class="w-80 h-80 rounded-full object-cover shadow-lg">
     </div>
   </section>
 </template>
