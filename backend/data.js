@@ -27,10 +27,10 @@ const skills = [
 
 const projects = [
   {
-    title: 'Website Toko Online',
+    title: 'Maha Parfume',
     image: 'https://via.placeholder.com/500x300?text=Proyek+1',
-    description: 'Platform e-commerce dengan fitur keranjang belanja.',
-    tech: ['Vue.js', 'Express.js', 'PostgreSQL'],
+    description: 'sebuah website yang mempermudah untuk membeli parfume secara online',
+    tech: ['React', 'Express.js', 'MongoDB'],
     link: '#',
   },
 {
@@ -41,7 +41,7 @@ const projects = [
   },
 
   {
-    title: "Netacad Cisco Jaringan komputer I",
+    title: "CCNA: Introduction to Networks",
     description: "Kursus dasar Cisco yang mengenalkan konsep jaringan komputer dan konfigurasi sederhana menggunakan Cisco Packet Tracer.",
     image: "/ccna-introduction-to-networks (1).png", // Jalur yang benar setelah dipindahkan ke folder public
     tech: ["Cisco Packet Tracer"],
