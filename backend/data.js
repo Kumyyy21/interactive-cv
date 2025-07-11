@@ -40,13 +40,13 @@ const projects = [
     "link": "https://github.com/kumyyy21/interactive-cv"
   },
 
- {
-  title: "Netacad Cisco Jaringan komputer I",
-  description: "Kursus dasar Cisco yang mengenalkan konsep jaringan komputer dan konfigurasi sederhana menggunakan Cisco Packet Tracer.",
-  image: "@/assets/ccna-introduction-to-networks (1).png", // ATAU .png, tergantung ekstensinya
-  tech: ["Cisco Packet Tracer"],
-  link: "https://www.credly.com/badges/01a07f95-cc68-451d-9ca8-649344b8034f/public_url"
-}
+  {
+    title: "Netacad Cisco Jaringan komputer I",
+    description: "Kursus dasar Cisco yang mengenalkan konsep jaringan komputer dan konfigurasi sederhana menggunakan Cisco Packet Tracer.",
+    image: "/ccna-introduction-to-networks (1).png", // Jalur yang benar setelah dipindahkan ke folder public
+    tech: ["Cisco Packet Tracer"],
+    link: "https://www.credly.com/badges/01a07f95-cc68-451d-9ca8-649344b8034f/public_url"
+  }
 ];
 
 module.exports = { educationHistory, skills, projects };
